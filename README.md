@@ -2,13 +2,12 @@
 This repository is about Human-Robot interaction. It uses Google Cloud API for speech recognition, parser Spacy. Programming language - Python 3.6.
 ---------------------------------
 I met folloving error: 
-Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual
-C++ Build Tools": http://landinghub.visualstudio.com/visual-cpp-build-tools
+"Microsoft Visual C++ 14.0 is required".
 
 To install spacy you'll need to install also MS Visual Studio C++ 14.0 Build tools.
 It is possible to solve by the following way:
 
-In the comments you ask which link to use. Use the link to Visual C++ 2015 Build Tools ( http://go.microsoft.com/fwlink/?LinkId=691126&fixForIE=.exe. ). That will install Visual C++ 14.0 without installing Visual Studio and will save your hard memory.
+Use the link to Visual C++ 2015 Build Tools ( http://go.microsoft.com/fwlink/?LinkId=691126&fixForIE=.exe. ). That will install Visual C++ 14.0 without installing Visual Studio and will save your hard memory.
 
 ---------------------------------
 Very big stuck I had with text-to-speech file playing. I solved it by the following way: just asked the OS to play this file using my default music player (AIMP3)
